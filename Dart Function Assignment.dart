@@ -8,11 +8,16 @@ num multiplyTwo(e, f) => e * f;
 
 num divideTwo(g, h) => g / h;
 
-String stringLength() => "welcome to my world";
+stringLength() {
+  String msg = "welcome to my world";
+  int length = msg.length;
+  print('$length');
+}
 
-String getFirstElement(msg) {
-  msg = "this is the real stuff";
-  return msg;
+getFirstElement() {
+  final numbers = [5, 6, 7, 8, 9];
+  final firstWhere = numbers.firstOrNull;
+  print('$firstWhere');
 }
 
 void main() {
@@ -29,6 +34,11 @@ void main() {
   num result2 = subtractTwo(c, d);
   num result3 = multiplyTwo(e, f);
   num result4 = divideTwo(g, h);
-  num reuslt5 = stringLength().length;
-  num result6 = $"msg".first;
+
+  print('$result1');
+  print('$result2');
+  print('$result3');
+  print('$result4');
+  stringLength();
+  getFirstElement();
 }
