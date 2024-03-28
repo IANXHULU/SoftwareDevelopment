@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Portifolio</title>
+  <title>Image Links</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+    .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -62,11 +76,45 @@ header {
     font-style: italic;
     background-color: lightgray;
   }
-
+  
 </style>
 </head>
 <body>
+  
+  <header>
+    <h2 style="float: top left;">This is my Website</h2>
+  </header>
+
+<div class="topnav">
+  <a class="active" href="https://www.youtube.com/watch?v=6vC4vLe5HTU&list=RD6vC4vLe5HTU&start_radio=1">Home</a>
+  <a href="https://www.foxnews.com/">Projects</a>
+  <a href="https://www.whatsapp.com/contact/?subject=messenger">Contact</a>
+  <a href="https://www.merriam-webster.com/dictionary/about">About</a>
+
+</div>
+
+  <p>
+    <h3>MENU</h3>
     <ol>
-        <li><a><img src="https://media.istockphoto.com/id/1125584344/photo/watermelon-slice-isolated-on-white-background-clipping-path-full-depth-of-field.jpg?s=2048x2048&w=is&k=20&c=ip0wP-GnWLb9ycc3VbPJKHkitnqw4v94AgTrtW7WuXo=" MELON</a></li>
-    </ol>
+        <li><a href="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\WATER_MELON.jpg">Melon</a></li>
+        <li><a href="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\APPLE.jpg">Apple</a></li>
+        <li><a href="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pineapple.jpg">Pineapple</a></li>
+      </ol>
+  </p>
+  <p>
+    <a href="https://www.dataengineering.com.au/en/blog"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\Data_engineering.jpg"></a>
+  </p>
+  
+  <div class="grid-container">
+    <div class="grid-item"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-chris-g-1643402.jpg" style="width:500px;height:500px;></div>
+    <div class="grid-item"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-erik-karits-3782463.jpg" style="width:500px;height:500px;></div>
+    <div class="grid-item"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-jeremy-bishop-2922672.jpg" style="width:500px;height:500px;></div>  
+    <div class="grid-item"><img src="IMAGES/pexels-lachlan-ross-5967958.jpg" style="width:500px;height:500px;></div>
+    <div class="grid-item"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-lukas-rodriguez-3573351.jpg" style="width:500px;height:500px;></div>
+    <div class="grid-item"><img src="IMAGES/pexels-philippe-donn-826410.jpg" style="width:500px;height:500px;></div>  
+    <div class="grid-item"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-photo-89770.jpeg" style="width:500px;height:500px;></div>
+    <div class="grid-item"><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-ricky-esquivel-1701892.jpg" style="width:500px;height:500px;></div>
+    <div class="grid-item" ><img src="C:\Users\DILIGENCE\Documents\GitHub\SoftwareDevelopment\IMAGES\pexels-dominika-roseclay-5462212.jpg" style="width:500px;height:500px;></div>  
+  </div>
+  
 </body>
