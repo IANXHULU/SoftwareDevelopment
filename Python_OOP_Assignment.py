@@ -1,7 +1,5 @@
 class Person:
-  """
-  This class represents a person with attributes like name, age, and gender.
-  """
+  
 
   def __init__(self, name, age, gender):
    
